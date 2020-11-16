@@ -1,0 +1,25 @@
+{
+  "name": "egg-step",
+  "version": "1.0.0",
+  "description": "this is egg project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev"
+  },
+  "keywords": [
+    "egg-step"
+  ],
+  "author": "yangyong",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.29.1",
+    "egg-validate": "^2.0.2",
+    "egg-view-nunjucks": "^2.2.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.15.0",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb": "^18.2.1"
+  }
+}

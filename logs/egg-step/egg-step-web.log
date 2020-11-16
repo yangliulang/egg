@@ -1,0 +1,740 @@
+2020-11-12 13:58:58,721 WARN 54541 [-/127.0.0.1/-/4ms POST /http] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-12 13:58:58,723 WARN 54541 [-/127.0.0.1/-/5ms POST /http] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 54541
+hostname: localhost
+
+2020-11-12 14:02:48,270 WARN 54600 [-/127.0.0.1/-/4ms POST /api/post] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-12 14:02:48,272 WARN 54600 [-/127.0.0.1/-/5ms POST /api/post] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 54600
+hostname: localhost
+
+2020-11-12 14:03:53,847 WARN 54600 [-/127.0.0.1/-/15ms POST /api/post] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-12 14:03:53,847 WARN 54600 [-/127.0.0.1/-/15ms POST /api/post] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 54600
+hostname: localhost
+
+2020-11-12 14:06:22,423 ERROR 54681 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: this.success is not a function
+    at HomeController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:6:10)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+
+pid: 54681
+hostname: localhost
+
+2020-11-12 14:35:40,966 ERROR 55151 [-/127.0.0.1/-/6ms GET /] nodejs.AssertionError: Can't find home.tpl from /Users/yangyong/Desktop/me/demo/egg-step/app/view
+    at Map.resolve (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/context_view.js:50:22)
+    at async HomeController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:7:5)
+    at async /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 55151
+hostname: localhost
+
+2020-11-12 14:36:11,520 ERROR 55184 [-/127.0.0.1/-/6ms GET /] nodejs.AssertionError: Can't find home.tpl from /Users/yangyong/Desktop/me/demo/egg-step/app/view
+    at Map.resolve (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/context_view.js:50:22)
+    at async HomeController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:7:5)
+    at async /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 55184
+hostname: localhost
+
+2020-11-12 14:36:12,413 ERROR 55184 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError: Can't find home.tpl from /Users/yangyong/Desktop/me/demo/egg-step/app/view
+    at Map.resolve (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/view_manager.js:74:5)
+    at async ContextView.[contextView#render] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/context_view.js:50:22)
+    at async HomeController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:7:5)
+    at async /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 55184
+hostname: localhost
+
+2020-11-12 14:50:27,665 WARN 55199 [-/127.0.0.1/-/1ms POST /post] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-12 14:50:27,666 WARN 55199 [-/127.0.0.1/-/2ms POST /post] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 55199
+hostname: localhost
+
+2020-11-13 14:06:34,655 WARN 4882 [-/127.0.0.1/-/1ms POST /post] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-13 14:06:34,656 WARN 4882 [-/127.0.0.1/-/2ms POST /post] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 4882
+hostname: localhost
+
+2020-11-13 14:09:20,043 WARN 4882 [-/127.0.0.1/-/1ms POST /post] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-13 14:09:20,043 WARN 4882 [-/127.0.0.1/-/1ms POST /post] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 4882
+hostname: localhost
+
+2020-11-13 14:13:25,295 WARN 4882 [-/127.0.0.1/-/1ms POST /post] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-13 14:13:25,295 WARN 4882 [-/127.0.0.1/-/1ms POST /post] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 4882
+hostname: localhost
+
+2020-11-13 14:14:08,616 WARN 4882 [-/127.0.0.1/-/0ms POST /post] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-13 14:14:08,616 WARN 4882 [-/127.0.0.1/-/0ms POST /post] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 4882
+hostname: localhost
+
+2020-11-13 14:15:09,877 WARN 4882 [-/127.0.0.1/-/1ms POST /post] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-13 14:15:09,877 WARN 4882 [-/127.0.0.1/-/1ms POST /post] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 4882
+hostname: localhost
+
+2020-11-13 14:20:53,175 ERROR 5173 [-/127.0.0.1/-/5ms POST /post] nodejs.TypeError: Cannot read property 'body' of undefined
+    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:22:31)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+
+pid: 5173
+hostname: localhost
+
+2020-11-13 14:26:08,323 WARN 5274 [-/127.0.0.1/-/4ms POST /post] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-13 14:26:08,325 WARN 5274 [-/127.0.0.1/-/5ms POST /post] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 5274
+hostname: localhost
+
+2020-11-13 14:26:19,001 ERROR 5276 [-/127.0.0.1/-/6ms POST /post] nodejs.AssertionError: undefined == 'controller'
+    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:22:12)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+generatedMessage: true
+code: "ERR_ASSERTION"
+actual: undefined
+expected: "controller"
+operator: "=="
+pid: 5276
+hostname: localhost
+
+2020-11-13 14:28:22,795 ERROR 5324 [-/127.0.0.1/-/11ms POST /post] nodejs.TypeError: Cannot read property 'body' of undefined
+    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:21:26)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+
+pid: 5324
+hostname: localhost
+
+2020-11-13 14:28:37,702 ERROR 5337 [-/127.0.0.1/-/11ms POST /post] nodejs.TypeError: Cannot read property 'body' of undefined
+    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:21:30)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+
+pid: 5337
+hostname: localhost
+
+2020-11-13 14:48:46,634 WARN 5645 [-/127.0.0.1/-/10ms POST /post] nodejs.Error: Invalid filename: egg.xmind
+    at checkFile (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:314:20)
+    at Busboy.emit (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:314:20)
+    at HeaderParser.<anonymous> (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:314:20)
+    at HeaderParser._finish (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 5645
+hostname: localhost
+
+2020-11-13 14:55:22,791 WARN 5747 [-/127.0.0.1/-/10ms POST /upload] nodejs.Error: Invalid filename: egg.xmind
+    at checkFile (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:314:20)
+    at Busboy.emit (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:314:20)
+    at HeaderParser.<anonymous> (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:314:20)
+    at HeaderParser._finish (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 5747
+hostname: localhost
+
+2020-11-13 14:56:06,341 WARN 5768 [-/127.0.0.1/-/9ms POST /upload] nodejs.Error: Invalid filename: egg.xmind
+    at checkFile (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:314:20)
+    at Busboy.emit (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:314:20)
+    at HeaderParser.<anonymous> (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:314:20)
+    at HeaderParser._finish (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 5768
+hostname: localhost
+
+2020-11-15 13:39:16,730 ERROR 24385 nodejs.TypeError: names.split is not a function
+    at getFromHeaders (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/app/extend/request.js:276:17)
+    at Object.get ips [as ips] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/app/extend/request.js:92:17)
+    at Object.ips (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/delegates/index.js:72:24)
+    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:20:26)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+
+pid: 24385
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 13:39:16,731 ERROR 24385 nodejs.TypeError: names.split is not a function
+    at getFromHeaders (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/app/extend/request.js:276:17)
+    at Object.get ips [as ips] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/app/extend/request.js:92:17)
+    at Object.get ip [as ip] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/app/extend/request.js:122:21)
+    at Object.ip (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/delegates/index.js:72:24)
+    at ContextLogger.get paddingMessage [as paddingMessage] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-logger/lib/egg/context_logger.js:28:11)
+    at ContextLogger.<computed> [as error] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-logger/lib/egg/context_logger.js:46:28)
+    at Application.<anonymous> (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at Object.app.context.onerror (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-onerror/index.js:55:14)
+    at onerror (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/lib/application.js:165:32)
+
+pid: 24385
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 13:56:11,384 ERROR 27439 [-/127.0.0.1/-/4ms GET /] nodejs.Error: this.session can only be set as null or an object.
+    at ContextSession.set (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/lib/context.js:59:11)
+    at Object.set (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:141:31)
+    at HomeController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:8:13)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 27439
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 13:56:44,439 ERROR 27557 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: ctx.session.set is not a function
+    at HomeController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:8:13)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+
+pid: 27557
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 13:56:45,597 ERROR 27557 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: ctx.session.set is not a function
+    at HomeController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:8:13)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+
+pid: 27557
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 14:01:05,292 ERROR 28345 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: Cannot read property 'userId' of null
+    at HomeController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:9:29)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+
+pid: 28345
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 14:06:41,945 ERROR 29376 [-/127.0.0.1/-/240ms POST /post] nodejs.TypeError: this.ctx.validate is not a function
+    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:24:14)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+
+pid: 29376
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 14:07:53,325 ERROR 29560 [-/127.0.0.1/-/238ms POST /post] nodejs.TypeError: this.ctx.validate is not a function
+    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:24:14)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+
+pid: 29560
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 14:11:45,552 ERROR 30298 [-/127.0.0.1/-/9ms POST /post] nodejs.TypeError: this.ctx.validate is not a function
+    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:24:14)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+
+pid: 30298
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 14:12:40,475 ERROR 30529 [-/127.0.0.1/-/242ms POST /post] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, but the following type was passed: String
+    at Parameter.validate (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/parameter/index.js:106:15)
+    at Object.validate (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-validate/app/extend/context.js:12:39)
+    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:24:14)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 30529
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 14:15:24,316 ERROR 31025 [-/127.0.0.1/-/12ms POST /post] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, but the following type was passed: ntring
+    at Parameter.validate (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/parameter/index.js:106:15)
+    at Object.validate (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-validate/app/extend/context.js:12:39)
+    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:25:16)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 31025
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 14:15:36,948 WARN 31073 [-/127.0.0.1/-/12ms POST /post] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-validate/app/extend/context.js:14:17)
+    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:25:16)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should be a number","code":"invalid","field":"name"}]
+pid: 31073
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 14:17:57,354 WARN 31485 [-/127.0.0.1/-/13ms POST /post] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-validate/app/extend/context.js:14:17)
+    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:25:16)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should be a number","code":"invalid","field":"name"}]
+pid: 31485
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 14:23:13,087 WARN 32444 [-/127.0.0.1/-/13ms POST /post] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-validate/app/extend/context.js:14:17)
+    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:25:16)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"必须是一个JSON","code":"invalid","field":"name"}]
+pid: 32444
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 18:19:01,054 WARN 49817 [-/127.0.0.1/-/4ms GET /jsonp] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-15 18:19:01,055 WARN 49817 [-/127.0.0.1/-/6ms GET /jsonp] nodejs.Error: jsonp request security validate failed
+    at securityAssert (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-jsonp/app/extend/application.js:47:19)
+    at jsonp (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-jsonp/app/extend/application.js:62:7)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+referrer: ""
+status: 403
+pid: 49817
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 18:19:18,369 WARN 49817 [-/127.0.0.1/-/1ms GET /jsonp?cb=haha] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-15 18:19:18,369 WARN 49817 [-/127.0.0.1/-/1ms GET /jsonp?cb=haha] nodejs.Error: jsonp request security validate failed
+    at securityAssert (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-jsonp/app/extend/application.js:47:19)
+    at jsonp (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-jsonp/app/extend/application.js:62:7)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+referrer: ""
+status: 403
+pid: 49817
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 18:19:40,086 WARN 49835 [-/127.0.0.1/-/5ms GET /jsonp?cb=haha] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-15 18:19:40,087 WARN 49835 [-/127.0.0.1/-/6ms GET /jsonp?cb=haha] nodejs.Error: jsonp request security validate failed
+    at securityAssert (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-jsonp/app/extend/application.js:47:19)
+    at jsonp (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-jsonp/app/extend/application.js:62:7)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+referrer: ""
+status: 403
+pid: 49835
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 18:19:40,983 WARN 49835 [-/127.0.0.1/-/0ms GET /jsonp?cb=haha] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-15 18:19:40,983 WARN 49835 [-/127.0.0.1/-/0ms GET /jsonp?cb=haha] nodejs.Error: jsonp request security validate failed
+    at securityAssert (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-jsonp/app/extend/application.js:47:19)
+    at jsonp (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-jsonp/app/extend/application.js:62:7)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+referrer: ""
+status: 403
+pid: 49835
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 18:19:41,757 WARN 49835 [-/127.0.0.1/-/0ms GET /jsonp?cb=haha] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-15 18:19:41,758 WARN 49835 [-/127.0.0.1/-/1ms GET /jsonp?cb=haha] nodejs.Error: jsonp request security validate failed
+    at securityAssert (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-jsonp/app/extend/application.js:47:19)
+    at jsonp (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-jsonp/app/extend/application.js:62:7)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+referrer: ""
+status: 403
+pid: 49835
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 18:19:42,472 WARN 49835 [-/127.0.0.1/-/1ms GET /jsonp?cb=haha] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-15 18:19:42,472 WARN 49835 [-/127.0.0.1/-/1ms GET /jsonp?cb=haha] nodejs.Error: jsonp request security validate failed
+    at securityAssert (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-jsonp/app/extend/application.js:47:19)
+    at jsonp (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-jsonp/app/extend/application.js:62:7)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+referrer: ""
+status: 403
+pid: 49835
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 18:19:56,027 WARN 49842 [-/127.0.0.1/-/5ms GET /jsonp?cb=haha] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-15 18:19:56,028 WARN 49842 [-/127.0.0.1/-/6ms GET /jsonp?cb=haha] nodejs.Error: jsonp request security validate failed
+    at securityAssert (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-jsonp/app/extend/application.js:47:19)
+    at jsonp (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-jsonp/app/extend/application.js:62:7)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+referrer: ""
+status: 403
+pid: 49842
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 18:19:56,907 WARN 49842 [-/127.0.0.1/-/1ms GET /jsonp?cb=haha] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-15 18:19:56,907 WARN 49842 [-/127.0.0.1/-/1ms GET /jsonp?cb=haha] nodejs.Error: jsonp request security validate failed
+    at securityAssert (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-jsonp/app/extend/application.js:47:19)
+    at jsonp (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-jsonp/app/extend/application.js:62:7)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+referrer: ""
+status: 403
+pid: 49842
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 18:22:14,054 WARN 49863 [-/127.0.0.1/-/8ms POST /post] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-15 18:22:14,055 WARN 49863 [-/127.0.0.1/-/10ms POST /post] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 49863
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-15 18:22:52,839 WARN 49890 [-/127.0.0.1/-/10ms POST /post] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-15 18:22:52,841 WARN 49890 [-/127.0.0.1/-/11ms POST /post] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 49890
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-16 16:07:02,363 ERROR 58963 [-/127.0.0.1/-/4ms GET /service] nodejs.TypeError: Cannot read property 'queryInfoById' of undefined
+    at ServiceController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/service.js:5:40)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
+    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
+
+pid: 58963
+hostname: localhost
+

@@ -1,0 +1,287 @@
+{
+  "keys": "/Users/yangyong/Desktop/me/demo/egg-step/config/config.default.js",
+  "session": {
+    "key": "/Users/yangyong/Desktop/me/demo/egg-step/config/config.default.js",
+    "maxAge": "/Users/yangyong/Desktop/me/demo/egg-step/config/config.default.js",
+    "httpOnly": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-session/config/config.default.js"
+  },
+  "view": {
+    "defaultViewEngine": "/Users/yangyong/Desktop/me/demo/egg-step/config/config.default.js",
+    "mapping": {
+      ".html": "/Users/yangyong/Desktop/me/demo/egg-step/config/config.default.js"
+    },
+    "root": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/config/config.default.js"
+  },
+  "jsonp": {
+    "callback": "/Users/yangyong/Desktop/me/demo/egg-step/config/config.default.js",
+    "limit": "/Users/yangyong/Desktop/me/demo/egg-step/config/config.default.js",
+    "csrf": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/yangyong/Desktop/me/demo/egg-step/config/config.default.js",
+      "type": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cookies": {
+    "httpOnly": "/Users/yangyong/Desktop/me/demo/egg-step/config/config.default.js",
+    "sameSite": "/Users/yangyong/Desktop/me/demo/egg-step/config/config.default.js"
+  },
+  "proxy": "/Users/yangyong/Desktop/me/demo/egg-step/config/config.default.js",
+  "bodyParser": {
+    "jsonLimit": "/Users/yangyong/Desktop/me/demo/egg-step/config/config.default.js",
+    "formLimit": "/Users/yangyong/Desktop/me/demo/egg-step/config/config.default.js",
+    "enable": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "strict": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+      "depth": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/yangyong/Desktop/me/demo/egg-step/config/config.default.js",
+    "fileExtensions": "/Users/yangyong/Desktop/me/demo/egg-step/config/config.default.js",
+    "autoFields": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "publicInfo": {
+    "auth": "/Users/yangyong/Desktop/me/demo/egg-step/config/config.local.js",
+    "version": "/Users/yangyong/Desktop/me/demo/egg-step/config/config.local.js"
+  },
+  "helper": {
+    "shtml": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-schedule/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "validate": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-validate/config/config.default.js",
+  "env": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+  "name": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "version": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "description": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "main": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
+    },
+    "keywords": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "author": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "license": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+      "moment": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+      "eslint-config-airbnb": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "env": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "level": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "logging": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+      "port": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
+}
