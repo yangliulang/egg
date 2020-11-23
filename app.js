@@ -14,17 +14,17 @@ module.exports = app => {
     // app.on('response',ctx=>{
     //     console.log('应用响应数据时触发,并将上下文暴露出来',ctx)
     // });
-    // console.log('--------------app',app.config.appMiddleware)
-    app.validator.addRule('json',(rule,value)=>{
-        try{
+    console.log('--------------app', app.mysql)
+    app.validator.addRule('json', (rule, value) => {
+        try {
             JSON.parse(value)
-        }catch(err){
+        } catch (err) {
             return '必须是一个JSON'
         }
     })
     app.cache = Date.now();
     // 创建一个context实例
-    app.beforeStart(()=>{
+    app.beforeStart(() => {
         const ctx = app.createAnonymousContext()
     });
 }

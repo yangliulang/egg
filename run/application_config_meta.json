@@ -198,6 +198,7 @@
     "license": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
     "dependencies": {
       "egg": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
       "egg-validate": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
       "egg-view-nunjucks": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
       "moment": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"

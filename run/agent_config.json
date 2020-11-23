@@ -158,6 +158,14 @@
       "cache": false
     },
     "validate": {},
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false
+    },
     "env": "local",
     "name": "egg-step",
     "keys": "<String len: 14>",
@@ -186,6 +194,7 @@
       "license": "ISC",
       "dependencies": {
         "egg": "^2.29.1",
+        "egg-mysql": "^3.0.0",
         "egg-validate": "^2.0.2",
         "egg-view-nunjucks": "^2.2.0",
         "moment": "^2.29.1"
@@ -472,6 +481,17 @@
       "from": "/Users/yangyong/Desktop/me/demo/egg-step/config/plugin.js",
       "path": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-validate",
       "version": "2.0.2"
+    },
+    "mysql": {
+      "enable": true,
+      "package": "egg-mysql",
+      "name": "mysql",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/yangyong/Desktop/me/demo/egg-step/config/plugin.js",
+      "path": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-mysql",
+      "version": "3.0.0"
     }
   }
 }

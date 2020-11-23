@@ -218,6 +218,7 @@
       "license": "ISC",
       "dependencies": {
         "egg": "^2.29.1",
+        "egg-mysql": "^3.0.0",
         "egg-validate": "^2.0.2",
         "egg-view-nunjucks": "^2.2.0",
         "moment": "^2.29.1"
@@ -522,6 +523,17 @@
       "from": "/Users/yangyong/Desktop/me/demo/egg-step/config/plugin.js",
       "path": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-validate",
       "version": "2.0.2"
+    },
+    "mysql": {
+      "enable": false,
+      "name": "mysql",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/yangyong/Desktop/me/demo/egg-step/config/plugin.local.js",
+      "package": "egg-mysql",
+      "path": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-mysql",
+      "version": "3.0.0"
     }
   }
 }

@@ -1,498 +1,144 @@
-2020-11-12 14:05:25,801 ERROR 54650 nodejs.AssertionError: Can't find viewEngine for /Users/yangyong/Desktop/me/demo/egg-step/app/view/home.html
-    at ContextView.[contextView#render] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/context_view.js:66:5)
-generatedMessage: false
-code: "ERR_ASSERTION"
-actual: ""
-expected: true
-operator: "=="
-pid: 54650
-hostname: localhost
-
-2020-11-12 14:05:41,304 ERROR 54650 nodejs.AssertionError: Can't find viewEngine for /Users/yangyong/Desktop/me/demo/egg-step/app/view/home.html
-    at ContextView.[contextView#render] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/context_view.js:66:5)
-generatedMessage: false
-code: "ERR_ASSERTION"
-actual: ""
-expected: true
-operator: "=="
-pid: 54650
-hostname: localhost
-
-2020-11-12 14:06:02,967 ERROR 54676 nodejs.AssertionError: Can't find viewEngine for /Users/yangyong/Desktop/me/demo/egg-step/app/view/home.tpl
-    at ContextView.[contextView#render] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/context_view.js:66:5)
-generatedMessage: false
-code: "ERR_ASSERTION"
-actual: ""
-expected: true
-operator: "=="
-pid: 54676
-hostname: localhost
-
-2020-11-12 14:06:22,422 ERROR 54681 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: this.success is not a function
-    at HomeController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:6:10)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
-
-pid: 54681
-hostname: localhost
-
-2020-11-12 14:32:39,496 ERROR 55070 nodejs.AssertionError: Can't find viewEngine for /Users/yangyong/Desktop/me/demo/egg-step/app/view/home.tpl
-    at ContextView.[contextView#render] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/context_view.js:66:5)
-generatedMessage: false
-code: "ERR_ASSERTION"
-actual: ""
-expected: true
-operator: "=="
-pid: 55070
-hostname: localhost
-
-2020-11-12 14:35:40,966 ERROR 55151 [-/127.0.0.1/-/6ms GET /] nodejs.AssertionError: Can't find home.tpl from /Users/yangyong/Desktop/me/demo/egg-step/app/view
-    at Map.resolve (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/view_manager.js:74:5)
-    at async ContextView.[contextView#render] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/context_view.js:50:22)
-    at async HomeController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:7:5)
-    at async /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
-    at async xframe (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
-    at async xssProtection (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
-    at async nosniff (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
-    at async noopen (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
-    at async session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:7)
-    at async bodyParser (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-bodyparser/index.js:95:5)
-generatedMessage: false
-code: "ERR_ASSERTION"
-actual: undefined
-expected: true
-operator: "=="
-pid: 55151
-hostname: localhost
-
-2020-11-12 14:36:11,519 ERROR 55184 [-/127.0.0.1/-/6ms GET /] nodejs.AssertionError: Can't find home.tpl from /Users/yangyong/Desktop/me/demo/egg-step/app/view
-    at Map.resolve (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/view_manager.js:74:5)
-    at async ContextView.[contextView#render] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/context_view.js:50:22)
-    at async HomeController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:7:5)
-    at async /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
-    at async xframe (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
-    at async xssProtection (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
-    at async nosniff (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
-    at async noopen (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
-    at async session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:7)
-    at async bodyParser (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-bodyparser/index.js:95:5)
-generatedMessage: false
-code: "ERR_ASSERTION"
-actual: undefined
-expected: true
-operator: "=="
-pid: 55184
-hostname: localhost
-
-2020-11-12 14:36:12,413 ERROR 55184 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError: Can't find home.tpl from /Users/yangyong/Desktop/me/demo/egg-step/app/view
-    at Map.resolve (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/view_manager.js:74:5)
-    at async ContextView.[contextView#render] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/context_view.js:50:22)
-    at async HomeController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:7:5)
-    at async /Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
-    at async xframe (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
-    at async xssProtection (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
-    at async nosniff (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
-    at async noopen (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
-    at async session (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:41:7)
-    at async bodyParser (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-bodyparser/index.js:95:5)
-generatedMessage: false
-code: "ERR_ASSERTION"
-actual: undefined
-expected: true
-operator: "=="
-pid: 55184
-hostname: localhost
-
-2020-11-12 14:43:26,001 ERROR 55183 nodejs.ClusterClientNoResponseError: client no response in 285594ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-11-22 00:59:07,058 ERROR 79177 nodejs.ClusterClientNoResponseError: client no response in 335238ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 55183
-hostname: localhost
+pid: 79177
+hostname: yangyongdeMacBook-Pro.local
 
-2020-11-13 14:19:37,903 ERROR 5136 nodejs.AssertionError: Can't find home.tpl from /Users/yangyong/Desktop/me/demo/egg-step/app/view
-    at Map.resolve (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/view_manager.js:74:5)
-    at async ContextView.[contextView#render] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/context_view.js:50:22)
-generatedMessage: false
-code: "ERR_ASSERTION"
-actual: undefined
-expected: true
-operator: "=="
-pid: 5136
-hostname: localhost
-
-2020-11-13 14:20:07,688 ERROR 5146 nodejs.AssertionError: Can't find home.tpl from /Users/yangyong/Desktop/me/demo/egg-step/app/view
-    at Map.resolve (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/view_manager.js:74:5)
-    at async ContextView.[contextView#render] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view/lib/context_view.js:50:22)
-generatedMessage: false
-code: "ERR_ASSERTION"
-actual: undefined
-expected: true
-operator: "=="
-pid: 5146
-hostname: localhost
-
-2020-11-13 14:20:53,174 ERROR 5173 [-/127.0.0.1/-/5ms POST /post] nodejs.TypeError: Cannot read property 'body' of undefined
-    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:22:31)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
-
-pid: 5173
-hostname: localhost
-
-2020-11-13 14:26:18,996 ERROR 5276 [-/127.0.0.1/-/6ms POST /post] nodejs.AssertionError: undefined == 'controller'
-    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:22:12)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
-generatedMessage: true
-code: "ERR_ASSERTION"
-actual: undefined
-expected: "controller"
-operator: "=="
-pid: 5276
-hostname: localhost
-
-2020-11-13 14:28:22,794 ERROR 5324 [-/127.0.0.1/-/11ms POST /post] nodejs.TypeError: Cannot read property 'body' of undefined
-    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:21:26)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
-
-pid: 5324
-hostname: localhost
-
-2020-11-13 14:28:37,702 ERROR 5337 [-/127.0.0.1/-/11ms POST /post] nodejs.TypeError: Cannot read property 'body' of undefined
-    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:21:30)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
-
-pid: 5337
-hostname: localhost
-
-2020-11-13 15:13:15,966 ERROR 5644 nodejs.ClusterClientNoResponseError: client no response in 212621ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-11-22 01:09:56,079 ERROR 79177 nodejs.ClusterClientNoResponseError: client no response in 488966ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 5644
-hostname: localhost
+pid: 79177
+hostname: yangyongdeMacBook-Pro.local
 
-2020-11-13 15:17:34,360 ERROR 5644 nodejs.ClusterClientNoResponseError: client no response in 218366ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-11-22 01:42:56,824 ERROR 79177 nodejs.ClusterClientNoResponseError: client no response in 1940733ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 5644
-hostname: localhost
+pid: 79177
+hostname: yangyongdeMacBook-Pro.local
 
-2020-11-13 16:31:48,332 ERROR 5644 nodejs.ClusterClientNoResponseError: client no response in 454125ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-11-22 02:16:00,821 ERROR 79177 nodejs.ClusterClientNoResponseError: client no response in 1943971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 5644
-hostname: localhost
+pid: 79177
+hostname: yangyongdeMacBook-Pro.local
 
-2020-11-13 16:39:13,809 ERROR 5644 nodejs.ClusterClientNoResponseError: client no response in 445470ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-11-22 03:34:23,812 ERROR 79177 nodejs.ClusterClientNoResponseError: client no response in 4662975ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 5644
-hostname: localhost
-
-2020-11-15 13:39:16,730 ERROR 24385 nodejs.TypeError: names.split is not a function
-    at getFromHeaders (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/app/extend/request.js:276:17)
-    at Object.get ips [as ips] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/app/extend/request.js:92:17)
-    at Object.ips (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/delegates/index.js:72:24)
-    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:20:26)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
-
-pid: 24385
+pid: 79177
 hostname: yangyongdeMacBook-Pro.local
 
-2020-11-15 13:39:16,730 ERROR 24385 nodejs.TypeError: names.split is not a function
-    at getFromHeaders (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/app/extend/request.js:276:17)
-    at Object.get ips [as ips] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/app/extend/request.js:92:17)
-    at Object.get ip [as ip] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/app/extend/request.js:122:21)
-    at Object.ip (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/delegates/index.js:72:24)
-    at ContextLogger.get paddingMessage [as paddingMessage] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-logger/lib/egg/context_logger.js:28:11)
-    at ContextLogger.<computed> [as error] (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-logger/lib/egg/context_logger.js:46:28)
-    at Application.<anonymous> (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-onerror/app.js:27:20)
-    at Application.emit (events.js:314:20)
-    at Object.app.context.onerror (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-onerror/index.js:55:14)
-    at onerror (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa/lib/application.js:165:32)
-
-pid: 24385
-hostname: yangyongdeMacBook-Pro.local
-
-2020-11-15 13:56:11,383 ERROR 27439 [-/127.0.0.1/-/4ms GET /] nodejs.Error: this.session can only be set as null or an object.
-    at ContextSession.set (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/lib/context.js:59:11)
-    at Object.set (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-session/index.js:141:31)
-    at HomeController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:8:13)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
-
-pid: 27439
-hostname: yangyongdeMacBook-Pro.local
-
-2020-11-15 13:56:44,439 ERROR 27557 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: ctx.session.set is not a function
-    at HomeController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:8:13)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
-
-pid: 27557
-hostname: yangyongdeMacBook-Pro.local
-
-2020-11-15 13:56:45,597 ERROR 27557 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: ctx.session.set is not a function
-    at HomeController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:8:13)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
-
-pid: 27557
-hostname: yangyongdeMacBook-Pro.local
-
-2020-11-15 14:01:05,292 ERROR 28345 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: Cannot read property 'userId' of null
-    at HomeController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:9:29)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
-
-pid: 28345
-hostname: yangyongdeMacBook-Pro.local
-
-2020-11-15 14:06:41,944 ERROR 29376 [-/127.0.0.1/-/240ms POST /post] nodejs.TypeError: this.ctx.validate is not a function
-    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:24:14)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
-
-pid: 29376
-hostname: yangyongdeMacBook-Pro.local
-
-2020-11-15 14:07:53,324 ERROR 29560 [-/127.0.0.1/-/238ms POST /post] nodejs.TypeError: this.ctx.validate is not a function
-    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:24:14)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
-
-pid: 29560
-hostname: yangyongdeMacBook-Pro.local
-
-2020-11-15 14:11:45,552 ERROR 30298 [-/127.0.0.1/-/9ms POST /post] nodejs.TypeError: this.ctx.validate is not a function
-    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:24:14)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
-
-pid: 30298
-hostname: yangyongdeMacBook-Pro.local
-
-2020-11-15 14:12:40,474 ERROR 30529 [-/127.0.0.1/-/242ms POST /post] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, but the following type was passed: String
-    at Parameter.validate (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/parameter/index.js:106:15)
-    at Object.validate (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-validate/app/extend/context.js:12:39)
-    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:24:14)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
-
-pid: 30529
-hostname: yangyongdeMacBook-Pro.local
-
-2020-11-15 14:15:24,315 ERROR 31025 [-/127.0.0.1/-/12ms POST /post] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, but the following type was passed: ntring
-    at Parameter.validate (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/parameter/index.js:106:15)
-    at Object.validate (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-validate/app/extend/context.js:12:39)
-    at HomeController.post (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/home.js:25:16)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
-
-pid: 31025
-hostname: yangyongdeMacBook-Pro.local
-
-2020-11-15 15:59:21,093 ERROR 30528 nodejs.ClusterClientNoResponseError: client no response in 260136ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-11-22 05:22:31,807 ERROR 79177 nodejs.ClusterClientNoResponseError: client no response in 6447968ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 30528
+pid: 79177
 hostname: yangyongdeMacBook-Pro.local
 
-2020-11-15 16:33:52,088 ERROR 30528 nodejs.ClusterClientNoResponseError: client no response in 2030988ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-11-22 06:29:14,762 ERROR 79177 nodejs.ClusterClientNoResponseError: client no response in 3962958ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 30528
+pid: 79177
 hostname: yangyongdeMacBook-Pro.local
 
-2020-11-15 17:06:00,082 ERROR 30528 nodejs.ClusterClientNoResponseError: client no response in 1887976ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-11-22 06:36:06,795 ERROR 79177 nodejs.ClusterClientNoResponseError: client no response in 312015ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 30528
+pid: 79177
 hostname: yangyongdeMacBook-Pro.local
 
-2020-11-15 17:11:12,042 ERROR 30528 nodejs.ClusterClientNoResponseError: client no response in 271939ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-11-22 07:09:10,739 ERROR 79177 nodejs.ClusterClientNoResponseError: client no response in 1943930ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 30528
+pid: 79177
 hostname: yangyongdeMacBook-Pro.local
 
-2020-11-15 17:17:56,200 ERROR 30528 nodejs.ClusterClientNoResponseError: client no response in 364122ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-11-22 07:47:43,731 ERROR 79177 nodejs.ClusterClientNoResponseError: client no response in 2272981ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 30528
+pid: 79177
 hostname: yangyongdeMacBook-Pro.local
 
-2020-11-16 16:07:02,363 ERROR 58963 [-/127.0.0.1/-/4ms GET /service] nodejs.TypeError: Cannot read property 'queryInfoById' of undefined
-    at ServiceController.index (/Users/yangyong/Desktop/me/demo/egg-step/app/controller/service.js:5:40)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:45:18)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:44:32)
-    at /Users/yangyong/Desktop/me/demo/egg-step/node_modules/koa-compose/index.js:36:12
-
-pid: 58963
-hostname: localhost
-
-2020-11-16 16:24:39,339 ERROR 58871 nodejs.ClusterClientNoResponseError: client no response in 299966ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-11-22 08:36:03,718 ERROR 79177 nodejs.ClusterClientNoResponseError: client no response in 2859975ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 58871
-hostname: localhost
+pid: 79177
+hostname: yangyongdeMacBook-Pro.local
 
-2020-11-16 16:49:19,301 ERROR 58871 nodejs.ClusterClientNoResponseError: client no response in 74094ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-11-22 08:41:32,537 ERROR 79177 nodejs.ClusterClientNoResponseError: client no response in 228787ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 58871
-hostname: localhost
+pid: 79177
+hostname: yangyongdeMacBook-Pro.local
 
-2020-11-16 17:31:04,075 ERROR 58871 nodejs.ClusterClientNoResponseError: client no response in 224436ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-11-22 09:17:15,706 ERROR 79177 nodejs.ClusterClientNoResponseError: client no response in 2103146ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 58871
-hostname: localhost
+pid: 79177
+hostname: yangyongdeMacBook-Pro.local
 
-2020-11-16 18:16:15,315 ERROR 58871 nodejs.ClusterClientNoResponseError: client no response in 1063284ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-11-22 11:05:23,706 ERROR 79177 nodejs.ClusterClientNoResponseError: client no response in 6447976ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 58871
-hostname: localhost
+pid: 79177
+hostname: yangyongdeMacBook-Pro.local
 
-2020-11-16 18:39:24,035 ERROR 58871 nodejs.ClusterClientNoResponseError: client no response in 68496ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-11-22 11:14:43,919 ERROR 79177 nodejs.ClusterClientNoResponseError: client no response in 520223ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 58871
-hostname: localhost
+pid: 79177
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-22 12:36:18,971 ERROR 79177 nodejs.ClusterClientNoResponseError: client no response in 534364ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 79177
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-22 14:02:50,319 ERROR 79177 nodejs.ClusterClientNoResponseError: client no response in 830109ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 79177
+hostname: yangyongdeMacBook-Pro.local
+
+2020-11-22 15:32:51,448 ERROR 82560 nodejs.ClusterClientNoResponseError: client no response in 3706150ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/yangyong/Desktop/me/demo/egg-step/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 82560
+hostname: yangyongdeMacBook-Pro.local
 

@@ -178,6 +178,14 @@
     "cache": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-view-nunjucks/config/config.local.js"
   },
   "validate": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-validate/config/config.default.js",
+  "mysql": {
+    "default": {
+      "database": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-mysql/config/config.default.js"
+    },
+    "app": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-mysql/config/config.default.js",
+    "agent": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg-mysql/config/config.default.js"
+  },
   "env": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
   "name": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
   "maxIpsCount": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
@@ -198,6 +206,7 @@
     "license": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
     "dependencies": {
       "egg": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
       "egg-validate": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
       "egg-view-nunjucks": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js",
       "moment": "/Users/yangyong/Desktop/me/demo/egg-step/node_modules/egg/config/config.default.js"
